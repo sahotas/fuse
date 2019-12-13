@@ -20,9 +20,9 @@ import (
 	"path"
 	"testing"
 
-	"github.com/jacobsa/fuse/samples"
-	"github.com/jacobsa/fuse/samples/forgetfs"
 	. "github.com/jacobsa/ogletest"
+	"github.com/sahotas/fuse/samples"
+	"github.com/sahotas/fuse/samples/forgetfs"
 )
 
 func TestForgetFS(t *testing.T) { RunTests(t) }

@@ -26,9 +26,9 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/jacobsa/fuse/fusetesting"
 	. "github.com/jacobsa/oglematchers"
 	. "github.com/jacobsa/ogletest"
+	"github.com/sahotas/fuse/fusetesting"
 )
 
 func TestPosix(t *testing.T) { RunTests(t) }

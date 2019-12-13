@@ -29,12 +29,12 @@ import (
 	"time"
 
 	fallocate "github.com/detailyang/go-fallocate"
-	"github.com/jacobsa/fuse"
-	"github.com/jacobsa/fuse/fusetesting"
-	"github.com/jacobsa/fuse/samples"
-	"github.com/jacobsa/fuse/samples/memfs"
 	. "github.com/jacobsa/oglematchers"
 	. "github.com/jacobsa/ogletest"
+	"github.com/sahotas/fuse"
+	"github.com/sahotas/fuse/fusetesting"
+	"github.com/sahotas/fuse/samples"
+	"github.com/sahotas/fuse/samples/memfs"
 	"golang.org/x/sys/unix"
 )
 

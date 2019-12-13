@@ -24,12 +24,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jacobsa/fuse/fuseutil"
-	"github.com/jacobsa/fuse/samples"
-	"github.com/jacobsa/fuse/samples/cachingfs"
 	. "github.com/jacobsa/oglematchers"
 	. "github.com/jacobsa/ogletest"
 	"github.com/jacobsa/timeutil"
+	"github.com/sahotas/fuse/fuseutil"
+	"github.com/sahotas/fuse/samples"
+	"github.com/sahotas/fuse/samples/cachingfs"
 )
 
 func TestCachingFS(t *testing.T) { RunTests(t) }

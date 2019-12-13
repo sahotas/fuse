@@ -22,11 +22,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jacobsa/fuse/fuseutil"
-	"github.com/jacobsa/fuse/samples"
-	"github.com/jacobsa/fuse/samples/interruptfs"
 	. "github.com/jacobsa/oglematchers"
 	. "github.com/jacobsa/ogletest"
+	"github.com/sahotas/fuse/fuseutil"
+	"github.com/sahotas/fuse/samples"
+	"github.com/sahotas/fuse/samples/interruptfs"
 )
 
 func TestInterruptFS(t *testing.T) { RunTests(t) }

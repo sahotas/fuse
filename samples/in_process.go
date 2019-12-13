@@ -23,9 +23,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/jacobsa/fuse"
 	"github.com/jacobsa/ogletest"
 	"github.com/jacobsa/timeutil"
+	"github.com/sahotas/fuse"
 )
 
 // A struct that implements common behavior needed by tests in the samples/

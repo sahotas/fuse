@@ -9,8 +9,8 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/jacobsa/fuse/internal/fusekernel"
 	"github.com/kylelemons/godebug/pretty"
+	"github.com/sahotas/fuse/internal/fusekernel"
 )
 
 func toByteSlice(p unsafe.Pointer, n int) []byte {

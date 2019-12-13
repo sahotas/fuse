@@ -15,8 +15,8 @@
 package fuse
 
 import (
-	"github.com/jacobsa/fuse/fuseops"
-	"github.com/jacobsa/fuse/internal/fusekernel"
+	"github.com/sahotas/fuse/fuseops"
+	"github.com/sahotas/fuse/internal/fusekernel"
 )
 
 // A sentinel used for unknown ops. The user is expected to respond with a
